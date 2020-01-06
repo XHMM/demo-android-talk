@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">聊个天</string>
+    <string name="url_register">http://192.168.1.102:9000/register</string>
+    <string name="url_login">http://192.168.1.102:9000/login</string>
+    <string name="url_sendMessage">http://192.168.1.102:9000/message</string>
+    <string name="url_messages">http://192.168.1.102:9000/messages</string>
+</resources>

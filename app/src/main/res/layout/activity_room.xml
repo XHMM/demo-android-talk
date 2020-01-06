@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/roombac"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#FDF5E6"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="房间进入通道"
+        android:textSize="35dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        tools:visibility="visible">
+
+
+        <EditText
+            android:id="@+id/wRoom_roomInput"
+            android:layout_width="193dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="60dp"
+            android:hint="请输入房间号"
+            android:maxLines="1"
+            android:textSize="28dp" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="74dp"
+        android:layout_marginLeft="30dp"
+        android:background="#00FF00"
+        android:paddingLeft="59dp"
+        android:paddingRight="40dp"
+        android:text="点击进入"
+        android:textSize="30dp"
+        android:onClick="chat"
+        />
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="74dp"
+        android:layout_marginLeft="30dp"
+        android:background="#9EF59E"
+        android:paddingLeft="59dp"
+        android:paddingRight="40dp"
+        android:text="退出"
+        android:textSize="30dp"
+        android:onClick="logout"
+        />
+
+</LinearLayout>
+
+
+

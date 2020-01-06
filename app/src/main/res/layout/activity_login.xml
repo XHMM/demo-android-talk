@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbac"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#00FFFF"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="用户登录"
+        android:textSize="35dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        tools:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="67dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:text="用户"
+            android:textSize="28dp" />
+
+        <EditText
+            android:id="@+id/wLogin_accountInput"
+            android:layout_width="271dp"
+            android:layout_height="76dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="50dp"
+            android:hint="请输入用户名"
+            android:maxLines="1"
+            android:textSize="28dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:layout_marginLeft="50dp"
+            android:text="密码"
+            android:textSize="28dp" />
+
+        <EditText
+            android:id="@+id/wLogin_pwdInput"
+            android:layout_width="283dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:hint="请输入密码"
+            android:inputType="text|textPassword"
+            android:maxLines="1"
+            android:textSize="28dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginLeft="40dp"
+            android:background="#00FF00"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="登录"
+            android:textSize="30dp"
+            android:onClick="login"
+            />
+
+        <Button
+            android:layout_width="158dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="30dp"
+            android:background="#00FF00"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="注册"
+            android:textSize="30dp"
+            android:onClick="register"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
